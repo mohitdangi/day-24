@@ -1,0 +1,24 @@
+.App {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .circle {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .circle.blue {
+    background-color: blue;
+  }
+  
